@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta charset="utf-8">
+    <link rel="icon" href="pic/favicon.ico">
+    <title>Lalit Yadav</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="http://fonts.googleapis.com/css?family=Cabin+Sketch:bold" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/raphael.js" type="text/javascript"></script>
+    <script src="js/init.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top test" id="show-navgation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" id="btn-chg" data-toggle="" data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="openNav()">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active "><a href="#wrapper1">Home</a></li>
+                    <li class=""><a href="#aboutme">About</a></li>
+                    <li><a class="" href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+	
+	
+	
+	
+	
+    <div id="wrapper1" class="container-fluid">
+        <!-- START HEADER -->
+        <div id="header" class="container-fluid">
+            <div id="welcome">
+                <h1 id="wlc-hdr">WELCOME</h1>
+                <h4 style="padding-bottom: 50px; ">Developing Together</h4>
+                <a href="#aboutme" class="btn btn-circle">
+                    <i class="fa fa-angle-double-down"></i>
+                </a>
+            </div>
+        </div>
+        <!-- END WRAPPER -->
+    </div>
+	
+    <!-- START ABOUT ME -->
+    <div id="aboutme" class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12  col-sm-6 col-sm-offset-1 col-md-4 about-me-text text-center">
+                <h4>ABOUT ME</h4>
+                <p>Hi, I am Lalit. I am 25 years old with full enthusiam to become a <strong>Full Stack</strong> developer</p>
+                <p>My passion is to use technology based solutions, to help solve real world challenges.</p>
+            </div>
+            <div class="col-xs-5 col-sm-4  col-xs-offset-3  col-md-2">
+                <img src="pic/personal-img.jpg" class="img-circle img-responsive" style="margin-top: 40px;"></img>
+            </div>
+        </div>
+    </div>
+    <!-- END ABOUT ME -->
+    <!-- SKILLS -->
+    <div class='container-fluid my-skills'>
+        <h4>My Skills</h4>
+        <div class="legend row">
+            <div class="skills">
+                <ul>
+                    <li class="py">Python</li>
+                    <li class="jq">JavaScript</li>
+                    <li class="css">HTML5&amp;CSS3</li>
+                    <li class="html">Angular</li>
+                    <li class="php">NodeJS</li>
+                    <li class="sql">MongoDB</li>
+                </ul>
+            </div>
+        </div>
+        <div id="diagram"></div>
+        <div class="get">
+            <div class="arc">
+                <span class="text">Python</span>
+                <input type="hidden" class="percent" value="75" />
+                <input type="hidden" class="color" value="blue" />
+            </div>
+            <div class="arc">
+                <span class="text">JavaScript</span>
+                <input type="hidden" class="percent" value="60" />
+                <input type="hidden" class="color" value="#97BE0D" />
+            </div>
+            <div class="arc">
+                <span class="text">HTML5&amp;CSS3</span>
+                <input type="hidden" class="percent" value="90" />
+                <input type="hidden" class="color" value="#ff4d4d" />
+            </div>
+            <div class="arc">
+                <span class="text">Angular</span>
+                <input type="hidden" class="percent" value="40" />
+                <input type="hidden" class="color" value="#668cff" />
+            </div>
+            <div class="arc">
+                <span class="text">NodeJs</span>
+                <input type="hidden" class="percent" value="53" />
+                <input type="hidden" class="color" value="#5cd65c" />
+            </div>
+            <div class="arc">
+                <span class="text">MongoDB</span>
+                <input type="hidden" class="percent" value="45" />
+                <input type="hidden" class="color" value="#b30000" />
+            </div>
+        </div>
+	</div>
+    <!-- END SKILLS -->
+    <!--Porjrct-->
+    <!-- START THE FEATURETTES -->
+	<div class="bck-img">
+    <div class="container-fluid project-details" id="project">
+        <div class="container-fluid" >
+            <div class="row proj-header" >
+                <div class="col-md-7 prj-cont">
+                    <h3 class="featurette-heading proj-header hidden-xs"><strong><em>Below you'll find some of my recent works.. </em></strong></h3>
+					<h3 class="featurette-heading proj-header visible-xs"><strong><em>My recent works.. </em></strong></h3>
+                    <div>
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+                <div class="row  featurette">
+                    <div class="col-md-7">
+                        <h3 class="featurette-heading">Sample Project #1 </h3>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div> 
+                    <div class="col-md-5 " id="img-div-skill">
+                        <img class="featurette-image img-responsive center-block hidden-xs show-img" src="pic/proj-img1.jpg" alt="Generic placeholder image">
+						<img class="featurette-image img-responsive center-block img-circle visible-xs show-img" src="pic/proj-img1.jpg" alt="Generic placeholder image">
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+                <div class="row  featurette">
+                    <div class="col-md-7 col-md-push-5">
+                        <h3 class="featurette-heading">Sample Project #2 </h3>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-5 col-md-pull-7 ">
+                        <img class="featurette-image img-responsive center-block hidden-xs" src="pic/proj-img2.jpg" alt="Generic placeholder image">
+						<img class="featurette-image img-responsive center-block img-circle visible-xs" src="pic/proj-img2.jpg" alt="Generic placeholder image">
+                    </div>
+                </div>
+                <hr class="featurette-divider">
+                <div class="row  featurette">
+                    <div class="col-md-7 ">
+                        <h3 class="featurette-heading">Sample Project #3 </h3>
+                        <p class="lead project-parax">xxxxxDonec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-5 ">
+                        <img class="featurette-image img-responsive center-block hidden-xs" src="pic/proj-img3.jpg" alt="Generic placeholder image">
+						<img class="featurette-image img-responsive center-block img-circle visible-xs" src="pic/proj-img3.jpg" alt="Generic placeholder image">
+                    </div>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+        </div>
+    </div>
+	</div>
+	    <!-- /END THE FEATURETTES -->
+        <div class="ftr-div conatiner-fluid" id='contact'>
+            <footer class="footer">
+                    <p class="text-muted">Contact Me.</p>
+                    <div class="rows">
+                        <div class="contact-cont col-xs-12 col-sm-6">
+                            <div class="col-xs-1">
+                                <a target="_blank" title="follow me on twitter" href="https://twitter.com/lalitzz_07">
+                                    <img alt="twitter" src="pic/twt.png" class="img-ftr" border=0></a>
+                            </div>
+                            <div class="col-xs-1">
+                                <a target="_blank" title="facebook" href="https://www.facebook.com/lalit.yadav.944">
+                                    <img alt="facebook" src="pic/face.png" class="img-ftr" border=0></a>
+                            </div>
+                            <div class="col-xs-1">
+                                <a target="_blank" title="github" href="https://github.com/lalit-07">
+                                    <img alt="github" src="pic/gh.svg" class="img-ftr" border=0></a>
+                            </div>
+                            <div class="col-xs-1">
+                                <a target="_blank" title="linkedIn" href="https://www.linkedin.com/in/lalit-yadav-077486b7/">
+                                    <img alt="linkedIn" src="pic/Link.svg" class="img-ftr" border=0></a>
+                            </div>
+                            <div class="col-xs-1">
+                                <a target="_blank" title="freeCodeCamp" href="https://www.freecodecamp.com/lalit-07">
+                                    <img alt="freeCodeCamp" src="pic/fcc.png" class="img-ftr" border=0></a>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+            </footer>
+		</div>
+		
+		<!--START MODAL-->
+		<div id="myNav" class="overlay">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <div class="overlay-content">
+			<a href="#wrapper1" onclick="closeNav()">Home</a>
+			<a href="#aboutme" onclick="closeNav()">About</a>
+			<a href="#project" onclick="closeNav()">Projects</a>
+			<a href="#contact" onclick="closeNav()">Contact</a>
+		  </div>
+		</div>
+		
+		<!--END MODAL-->
+		
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <script src="js/ie10-viewport-bug-workaround.js"></script>
+			<script src="js/script.js"></script>
+</body>
+
+</html>
